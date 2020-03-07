@@ -1,0 +1,175 @@
+.header {
+    margin-top: 0px;
+}
+
+.footer {
+    background-color: black;
+    padding: 35px 5px;
+    margin-top: 0px;
+}
+
+.second_part {
+    width: 100%;
+    margin: 0;
+}
+
+.third_part {
+    text-align: center;
+    color: black;
+    margin-bottom: 150px;
+}
+
+.fourth_part {
+    background-image: url("images/ddg-bg.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 90px;
+    width: 100%;
+    margin: 0px;
+}
+
+.last_part h1 {
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+.aust_cse {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+.image {
+    width: 100%;
+}
+
+.Big_p,
+.Small_p {
+    color: black;
+}
+
+.back_third_part {
+    background-color: rgb(236, 235, 234);
+    padding: 55px 0px;
+    margin-top: 250px;
+}
+
+.Big_p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.col-md-3 {
+    color: black;
+    text-align: center;
+}
+
+.col-md-4 {
+    background-color: black;
+    border-radius: 6px;
+}
+
+.bigfont {
+    color: white;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.third_part h1 {
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.third_part h2 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.tab_one {
+    background-color: yellowgreen;
+    width: 30%;
+    float: left;
+    margin: 5px;
+    padding: 25px 15px;
+    border-radius: 12px;
+    color: white;
+}
+
+.tab_two {
+    background-color: rgb(19, 100, 124);
+    width: 30%;
+    float: left;
+    margin: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 35px 15px;
+    border-radius: 12px;
+    color: white;
+}
+
+.tab_three {
+    background-color: gray;
+    width: 30%;
+    float: left;
+    margin: 5px;
+    border-radius: 12px;
+    padding: 35px 15px;
+    color: white;
+}
+
+.B-head {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+.S_param {
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+.second_part {
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 938px) {
+    /* For desktop: */
+    .tab_one {
+        width: 30%;
+    }
+    .tab_two {
+        width: 30%;
+    }
+    .tab_three {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    /* For desktop: */
+    .tab_one {
+        width: 100%;
+    }
+    .tab_two {
+        width: 100%;
+    }
+    .tab_three {
+        width: 100%;
+    }
+}
